@@ -14,7 +14,7 @@ const PLACEHOLDER_FILES = [
 const CATEGORIES = ['All', 'Reports', 'Finance', 'Procurement', 'Administrative'];
 
 const TYPE_COLOR = {
-  pdf: 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400',
+  pdf: 'bg-red-100 text-red-700 dark:bg-slate-700 dark:text-slate-300',
   xlsx: 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
 };
 
@@ -31,7 +31,7 @@ export default function AFD() {
       {/* Header */}
       <section className="bg-[#0038A8] text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[#FCD116] text-sm font-semibold uppercase tracking-wider mb-2">Division</p>
+          <p className="text-[#FCD116] dark:text-blue-300 text-sm font-semibold uppercase tracking-wider mb-2">Division</p>
           <h1 className="text-4xl font-black">Administrative & Finance Division</h1>
           <p className="text-white/70 mt-2">Official documents, reports and administrative files.</p>
         </div>
@@ -56,7 +56,7 @@ export default function AFD() {
             ))}
           </div>
           {isAdmin && (
-            <button className="flex items-center gap-2 px-4 py-2 bg-[#FCD116] text-[#0038A8] rounded-lg text-sm font-bold hover:bg-yellow-300 transition-colors">
+            <button className="flex items-center gap-2 px-4 py-2 bg-[#FCD116] text-[#0038A8] dark:bg-blue-600 dark:text-white rounded-lg text-sm font-bold hover:bg-yellow-300 dark:hover:bg-blue-700 transition-colors">
               <Upload size={14} />
               Upload File
             </button>
@@ -65,9 +65,9 @@ export default function AFD() {
 
         {/* Not logged in notice */}
         {!user && (
-          <div className="flex items-center gap-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg px-4 py-3 mb-6">
-            <Lock size={16} className="text-yellow-600 dark:text-yellow-400 shrink-0" />
-            <p className="text-sm text-yellow-700 dark:text-yellow-300">
+          <div className="flex items-center gap-3 bg-yellow-50 dark:bg-blue-900/20 border border-yellow-200 dark:border-blue-800 rounded-lg px-4 py-3 mb-6">
+            <Lock size={16} className="text-yellow-600 dark:text-blue-400 shrink-0" />
+            <p className="text-sm text-yellow-700 dark:text-blue-300">
               Some files may require login to download. <a href="/login" className="font-semibold underline">Login here</a>.
             </p>
           </div>

@@ -125,7 +125,7 @@ function MandateTab() {
             <ul className="space-y-2.5">
               {section.items.map((item, j) => (
                 <li key={j} className="flex gap-3 items-start">
-                  <span className="mt-1.5 w-1.5 h-1.5 bg-[#FCD116] rounded-full shrink-0" />
+                  <span className="mt-1.5 w-1.5 h-1.5 bg-[#FCD116] dark:bg-blue-400 rounded-full shrink-0" />
                   <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">{item}</p>
                 </li>
               ))}
@@ -157,7 +157,7 @@ function MissionTab() {
       </div>
 
       <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-100 dark:border-gray-700">
-        <div className="w-10 h-1 bg-[#CE1126] rounded mb-4" />
+        <div className="w-10 h-1 bg-[#CE1126] dark:bg-blue-600 rounded mb-4" />
         <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Mission</h2>
         <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
           The Department of Information and Communications Technology commits to:
@@ -193,7 +193,7 @@ function MissionTab() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {CORE_VALUES.map(({ letter, value }) => (
             <div key={letter} className="bg-[#0038A8] rounded-xl p-5 text-center text-white shadow-sm">
-              <p className="text-4xl font-black text-[#FCD116] mb-1">{letter}</p>
+              <p className="text-4xl font-black text-[#FCD116] dark:text-blue-300 mb-1">{letter}</p>
               <p className="text-sm font-medium">{value}</p>
             </div>
           ))}
@@ -207,7 +207,7 @@ function QualityTab() {
   return (
     <div className="max-w-3xl">
       <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-100 dark:border-gray-700 space-y-5 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
-        <div className="w-10 h-1 bg-[#FCD116] rounded mb-2" />
+        <div className="w-10 h-1 bg-[#FCD116] dark:bg-blue-500 rounded mb-2" />
         <h2 className="text-xl font-bold text-gray-900 dark:text-white">DICT Quality Policy</h2>
         <p>
           We, The Department of Information and Communications Technology, commit to lead in pushing
@@ -286,7 +286,7 @@ export default function AboutUs() {
       {/* Page header */}
       <section className="bg-[#0038A8] text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[#FCD116] text-sm font-semibold uppercase tracking-wider mb-2">About</p>
+          <p className="text-[#FCD116] dark:text-blue-300 text-sm font-semibold uppercase tracking-wider mb-2">About</p>
           <h1 className="text-4xl font-black">DICT Region 10</h1>
           <p className="text-white/70 mt-2 max-w-xl">
             Department of Information and Communications Technology – Northern Mindanao Regional Office
@@ -359,7 +359,7 @@ export default function AboutUs() {
               { icon: Globe, label: 'Website', value: 'dict.gov.ph' },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="flex gap-3">
-                <Icon size={20} className="text-[#FCD116] shrink-0 mt-0.5" />
+                <Icon size={20} className="text-[#FCD116] dark:text-blue-300 shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs text-white/50 uppercase tracking-wider">{label}</p>
                   <p className="text-sm mt-0.5">{value}</p>

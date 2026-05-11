@@ -9,7 +9,7 @@ export default function Maps() {
       {/* Header */}
       <section className="bg-[#0038A8] text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[#FCD116] text-sm font-semibold uppercase tracking-wider mb-2">Coverage</p>
+          <p className="text-[#FCD116] dark:text-blue-300 text-sm font-semibold uppercase tracking-wider mb-2">Coverage</p>
           <h1 className="text-4xl font-black">Maps</h1>
           <p className="text-white/70 mt-2">Geographic coverage of DICT Region 10 programs and services.</p>
         </div>

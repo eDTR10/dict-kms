@@ -55,7 +55,7 @@ export default function Login() {
     <div className="min-h-[80vh] flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-4 transition-colors duration-300">
       <div className="w-full max-w-md">
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <div className="h-1.5 bg-linear-to-r from-[#CE1126] via-[#FCD116] to-[#0038A8]" />
+          <div className="h-1.5 bg-linear-to-r from-[#CE1126] via-[#FCD116] to-[#0038A8] dark:from-blue-900 dark:via-blue-600 dark:to-slate-900" />
 
           <div className="p-8">
             {/* Logo */}
@@ -67,7 +67,7 @@ export default function Login() {
 
             {/* Error */}
             {error && (
-              <div className="flex items-center gap-2 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 text-red-700 dark:text-red-400 rounded-lg px-4 py-3 mb-5 text-sm">
+              <div className="flex items-center gap-2 bg-red-50 dark:bg-orange-900/20 border border-red-200 dark:border-orange-800 text-red-700 dark:text-orange-400 rounded-lg px-4 py-3 mb-5 text-sm">
                 <AlertCircle size={15} className="shrink-0" />
                 {error}
               </div>
