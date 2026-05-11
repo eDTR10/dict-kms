@@ -111,7 +111,7 @@ export default function Carousel() {
               >
                 {hasError ? (
                   <div className="w-full h-full flex flex-col items-center justify-center bg-linear-to-br from-[#0038A8] to-[#001a52] gap-4">
-                    <img src="/DICT Logo.png" alt="DICT" className="w-16 h-16 object-contain opacity-40" />
+                    <img src="/DICT-Logo.png" alt="DICT" className="w-16 h-16 object-contain opacity-40" />
                     <div className="text-center">
                       <ImageOff size={22} className="text-white/30 mx-auto mb-2" />
                       <p className="text-white/40 text-xs max-w-xs px-4">

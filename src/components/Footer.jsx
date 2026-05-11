@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-start gap-4">
-            <img src="/DICT Logo.png" alt="DICT Logo" className="w-14 h-14 object-contain shrink-0" />
+            <img src="/DICT-Logo.png" alt="DICT Logo" className="w-14 h-14 object-contain shrink-0" />
             <div>
               <h3 className="font-bold text-lg mb-1">DICT Region 10</h3>
               <p className="text-white/70 text-sm">

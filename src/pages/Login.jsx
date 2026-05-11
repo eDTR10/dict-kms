@@ -60,7 +60,7 @@ export default function Login() {
           <div className="p-8">
             {/* Logo */}
             <div className="flex flex-col items-center mb-8">
-              <img src="/DICT Logo.png" alt="DICT Logo" className="w-16 h-16 object-contain mb-3" />
+              <img src="/DICT-Logo.png" alt="DICT Logo" className="w-16 h-16 object-contain mb-3" />
               <h1 className="text-xl font-black text-gray-900 dark:text-white">KMS PortalX</h1>
               <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">Sign in to your account</p>
             </div>

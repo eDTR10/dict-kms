@@ -75,7 +75,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 shrink-0">
             <img
-              src="/DICT Logo.png"
+              src="/DICT-Logo.png"
               alt="DICT Logo"
               className="w-10 h-10 object-contain rounded-full bg-white p-0.5"
             />

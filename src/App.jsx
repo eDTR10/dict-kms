@@ -28,7 +28,7 @@ import ManageCarousel from './pages/Admin/ManageCarousel';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         {/* Login (no main layout) */}
         <Route path="/login" element={<Login />} />

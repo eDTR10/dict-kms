@@ -6,7 +6,7 @@ import { useTheme } from '../context/ThemeContext';
 
 const PROJECTS = [
   {
-    logo: '/Free Wifi.png',
+    logo: '/Free-Wifi.png',
     title: 'Free Wi-Fi',
     description: 'Free public Wi-Fi access points deployed across Region 10 communities.',
     path: '/projects/free-wifi',
@@ -22,7 +22,7 @@ const PROJECTS = [
     logoBg: 'bg-[#0038A8]',
   },
   {
-    logo: '/eGovPH Logo.png',
+    logo: '/eGovPH-Logo.png',
     title: 'eGov (NGP)',
     description: 'Electronic Government and National Government Portal deployment status.',
     path: '/projects/egov',
@@ -46,7 +46,7 @@ const PROJECTS = [
     logoBg: 'bg-[#2d4a6e]',
   },
   {
-    logo: '/eLGU Logo.png',
+    logo: '/eLGU-Logo.png',
     title: 'eLGU',
     description: 'Electronic Local Government Unit operations and automation program.',
     path: '/projects/elgu',
